@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import background from "./img/placeholder.png";
 
 // reactstrap components
 import { Button, Card, Container, Row, Col } from "reactstrap";
@@ -38,7 +39,7 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div className="shape shape-style-1 shape-default alpha-4" style={{ backgroundImage: `url(${'https://images.unsplash.com/photo-1569396116180-210c182bedb8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGNvZGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'})` }}>
               <span />
               <span />
               <span />
